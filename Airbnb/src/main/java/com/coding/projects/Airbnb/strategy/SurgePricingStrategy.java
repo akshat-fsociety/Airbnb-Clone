@@ -1,0 +1,24 @@
+package com.coding.projects.Airbnb.strategy;
+
+import com.coding.projects.Airbnb.entity.Inventory;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+import java.math.BigDecimal;
+
+
+/*
+ *
+ * DECORATOR PATTERN -> IT WILL SURGE THE PRICE BY SURGE FACTOR IN INVENTORY.
+ *
+ * */
+@RequiredArgsConstructor
+public class SurgePricingStrategy implements PricingStrategy{
+
+    private final PricingStrategy wrapped;
+
+    @Override
+    public BigDecimal calculatePrice(Inventory inventory) {
+        return wrapped.calculatePrice(inventory).multiply(inventory.getSurgeFactor());
+    }
+}
