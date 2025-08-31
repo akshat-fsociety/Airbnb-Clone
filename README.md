@@ -31,5 +31,20 @@ Designed with **scalability, concurrency safety, ACID compliance, and clean arch
 ![Maven](https://img.shields.io/badge/Maven-Build%20Tool-red)  
 
 ---
+
+## Screenshots 📸
+
+![Screenshot](designs/Screenshot%202025-08-31%20200951.png)
+
+![Screenshot](designs/Screenshot%202025-08-31%20201028.png)
+
+![Screenshot](designs/Screenshot%202025-08-31%20201103.png)
+
+![Screenshot](designs/Screenshot%202025-08-31%20201121.png)
+
+![Screenshot](designs/Screenshot%202025-08-31%20201136.png)
+
+---
+
 ## 🟢Swagger OpenAPI definition
 http://localhost:8080/api/v1/swagger-ui/index.html#/
