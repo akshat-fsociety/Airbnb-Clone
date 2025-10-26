@@ -32,7 +32,7 @@ Designed with **scalability, concurrency safety, ACID compliance, and clean arch
 
 ---
 
-## System Designs 🏗️
+## 🏗️ System Design 
 
 ![Screenshot](designs/Screenshot%202025-08-31%20200951.png)
 
